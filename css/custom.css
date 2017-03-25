@@ -26,6 +26,7 @@
     font-weight: 800;
     color: blueviolet;
 }
+
 .collapse.navbar-collapse a.contact:link {
     border: 1px solid blueviolet;
     background-color: white;
@@ -167,33 +168,27 @@ h1 {
         padding: 5px;
         padding-bottom: calc(100% * 3 / 4);
     }
-    
     .container .jumbotron h1 {
         font-size: 48px;
     }
-    
     .container .jumbotron p {
         color: dimgray;
         font-size: 22px;
     }
-    
     .services {
         margin-top: -80px;
         margin-bottom: 0px;
         padding-bottom: 0px;
         border-bottom: 1px solid gainsboro;
     }
-    
     .services h2 {
         font-size: 34px;
         padding-bottom: 20px;
     }
-    
     .about-our-services h2 {
         font-size: 34px;
         padding-bottom: 15px;
     }
-    
     .center-block {
         text-align: center;
         object-fit: contain;
@@ -205,7 +200,6 @@ h1 {
         margin-bottom: 10px;
     }
 }
-
 
 @media only screen and (max-width: 992px) {
     .container .jumbotron {
@@ -219,33 +213,27 @@ h1 {
         padding: 5px;
         padding-bottom: calc(100% * 3 / 4);
     }
-    
     .container .jumbotron h1 {
         font-size: 46px;
     }
-    
     .container .jumbotron p {
         color: dimgray;
         font-size: 22px;
     }
-    
     .services {
         margin-top: -60px;
         margin-bottom: 0px;
         padding-bottom: 0px;
         border-bottom: 1px solid gainsboro;
     }
-    
     .services h2 {
         font-size: 34px;
         padding-bottom: 30px;
     }
-    
     .about-our-services h2 {
         font-size: 34px;
         padding-bottom: 15px;
     }
-    
     .center-block {
         text-align: center;
         object-fit: contain;
@@ -257,7 +245,6 @@ h1 {
         margin-bottom: 10px;
     }
 }
-
 
 @media only screen and (max-width: 768px) {
     .container .jumbotron {
@@ -271,33 +258,27 @@ h1 {
         padding: 5px;
         padding-bottom: calc(100% * 3 / 4);
     }
-    
     .container .jumbotron h1 {
         font-size: 28px;
     }
-    
     .container .jumbotron p {
         color: dimgray;
         font-size: 14px;
     }
-    
     .services {
         margin-top: -50px;
         margin-bottom: 0px;
         padding-bottom: 0px;
         border-bottom: 1px solid gainsboro;
     }
-    
     .services h2 {
         font-size: 26px;
         padding-bottom: 20px;
     }
-    
     .about-our-services h2 {
         font-size: 24px;
         padding-bottom: 15px;
     }
-    
     .center-block {
         text-align: center;
         object-fit: contain;
@@ -322,33 +303,27 @@ h1 {
         padding: 5px;
         padding-bottom: calc(100% * 3 / 4);
     }
-    
     .container .jumbotron h1 {
         font-size: 22px;
     }
-    
     .container .jumbotron p {
         color: dimgray;
         font-size: 11px;
     }
-    
     .services {
         margin-top: -50px;
         margin-bottom: 0px;
         padding-bottom: 0px;
         border-bottom: 1px solid gainsboro;
     }
-    
     .services h2 {
         font-size: 22px;
         padding-bottom: 10px;
     }
-    
     .about-our-services h2 {
         font-size: 22px;
         padding-bottom: 15px;
     }
-    
     .center-block {
         text-align: center;
         object-fit: contain;
@@ -361,9 +336,58 @@ h1 {
     }
 }
 
-
-
+@media only screen and (max-width: 320px) {
+    .navbar-header img {
+        width: 225px;
+    }
+    .container .jumbotron {
+        width: 100%;
+        text-align: center;
+        border-radius: 0px;
+        border-top: 1px solid gainsboro;
+        background: url("../img/optimized-hero.svg") center center;
+        background-size: cover;
+        height: 0;
+        padding: 5px;
+        padding-bottom: calc(100% * 3 / 4);
+    }
+    .container .jumbotron h1 {
+        font-size: 22px;
+    }
+    .container .jumbotron p {
+        color: dimgray;
+        font-size: 11px;
+    }
+    .services {
+        margin-top: -50px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        border-bottom: 1px solid gainsboro;
+    }
+    .services h2 {
+        font-size: 22px;
+        padding-bottom: 10px;
+    }
+    .about-our-services h2 {
+        font-size: 22px;
+        padding-bottom: 15px;
+    }
+    .center-block {
+        text-align: center;
+        object-fit: contain;
+        height: 225px;
+        width: 175px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
 
 .get-in-touch {
     padding-bottom: 40px
+}
+
+.navbar-header img {
+    width: 250px;
 }
