@@ -1,7 +1,10 @@
+.navbar-header img {
+    width: 250px;
+}
+
 .nav-header-div {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 0 20px;
+    padding: 10px 20px;
+    border-bottom: 1px solid gainsboro;
 }
 
 .navbar-toggle .icon-bar {
@@ -55,15 +58,8 @@ body {
 }
 
 .container .jumbotron {
-    width: 100%;
+    background: none;
     text-align: center;
-    border-radius: 0px;
-    border-top: 1px solid gainsboro;
-    background: url("../img/optimized-hero.svg") center center;
-    background-size: cover;
-    height: 0;
-    padding: 30px;
-    padding-bottom: calc(100% * 3 / 4);
 }
 
 .container .jumbotron h1 {
@@ -85,9 +81,6 @@ h1 {
 }
 
 .services {
-    margin-top: -90px;
-    margin-bottom: 60px;
-    padding-bottom: 30px;
     border-bottom: 1px solid gainsboro;
 }
 
@@ -156,17 +149,13 @@ h1 {
     box-shadow: 0px 0px 0px 0px;
 }
 
+.get-in-touch {
+    padding-bottom: 40px
+}
+
 @media only screen and (max-width: 1200px) {
     .container .jumbotron {
-        width: 100%;
-        text-align: center;
-        border-radius: 0px;
-        border-top: 1px solid gainsboro;
-        background: url("../img/optimized-hero.svg") center center;
-        background-size: cover;
-        height: 0;
-        padding: 5px;
-        padding-bottom: calc(100% * 3 / 4);
+
     }
     .container .jumbotron h1 {
         font-size: 48px;
@@ -176,9 +165,6 @@ h1 {
         font-size: 22px;
     }
     .services {
-        margin-top: -80px;
-        margin-bottom: 0px;
-        padding-bottom: 0px;
         border-bottom: 1px solid gainsboro;
     }
     .services h2 {
@@ -203,15 +189,7 @@ h1 {
 
 @media only screen and (max-width: 992px) {
     .container .jumbotron {
-        width: 100%;
-        text-align: center;
-        border-radius: 0px;
-        border-top: 1px solid gainsboro;
-        background: url("../img/optimized-hero.svg") center center;
-        background-size: cover;
-        height: 0;
-        padding: 5px;
-        padding-bottom: calc(100% * 3 / 4);
+
     }
     .container .jumbotron h1 {
         font-size: 46px;
@@ -221,9 +199,6 @@ h1 {
         font-size: 22px;
     }
     .services {
-        margin-top: -60px;
-        margin-bottom: 0px;
-        padding-bottom: 0px;
         border-bottom: 1px solid gainsboro;
     }
     .services h2 {
@@ -248,15 +223,6 @@ h1 {
 
 @media only screen and (max-width: 768px) {
     .container .jumbotron {
-        width: 100%;
-        text-align: center;
-        border-radius: 0px;
-        border-top: 1px solid gainsboro;
-        background: url("../img/optimized-hero.svg") center center;
-        background-size: cover;
-        height: 0;
-        padding: 5px;
-        padding-bottom: calc(100% * 3 / 4);
     }
     .container .jumbotron h1 {
         font-size: 28px;
@@ -266,9 +232,6 @@ h1 {
         font-size: 14px;
     }
     .services {
-        margin-top: -50px;
-        margin-bottom: 0px;
-        padding-bottom: 0px;
         border-bottom: 1px solid gainsboro;
     }
     .services h2 {
@@ -292,16 +255,11 @@ h1 {
 }
 
 @media only screen and (max-width: 480px) {
+    .navbar-header img {
+        width: 75%;
+    }
     .container .jumbotron {
-        width: 100%;
-        text-align: center;
-        border-radius: 0px;
-        border-top: 1px solid gainsboro;
-        background: url("../img/optimized-hero.svg") center center;
-        background-size: cover;
-        height: 0;
-        padding: 5px;
-        padding-bottom: calc(100% * 3 / 4);
+
     }
     .container .jumbotron h1 {
         font-size: 22px;
@@ -311,9 +269,6 @@ h1 {
         font-size: 11px;
     }
     .services {
-        margin-top: -50px;
-        margin-bottom: 0px;
-        padding-bottom: 0px;
         border-bottom: 1px solid gainsboro;
     }
     .services h2 {
@@ -337,31 +292,16 @@ h1 {
 }
 
 @media only screen and (max-width: 320px) {
-    .navbar-header img {
-        width: 225px;
-    }
     .container .jumbotron {
-        width: 100%;
-        text-align: center;
-        border-radius: 0px;
-        border-top: 1px solid gainsboro;
-        background: url("../img/optimized-hero.svg") center center;
-        background-size: cover;
-        height: 0;
-        padding: 5px;
-        padding-bottom: calc(100% * 3 / 4);
     }
     .container .jumbotron h1 {
-        font-size: 22px;
+        font-size: 18px;
     }
     .container .jumbotron p {
         color: dimgray;
-        font-size: 11px;
+        font-size: 10px;
     }
     .services {
-        margin-top: -50px;
-        margin-bottom: 0px;
-        padding-bottom: 0px;
         border-bottom: 1px solid gainsboro;
     }
     .services h2 {
@@ -382,12 +322,4 @@ h1 {
         margin-top: 10px;
         margin-bottom: 10px;
     }
-}
-
-.get-in-touch {
-    padding-bottom: 40px
-}
-
-.navbar-header img {
-    width: 250px;
 }
