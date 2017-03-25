@@ -1,0 +1,369 @@
+.nav-header-div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 20px;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: blueviolet;
+}
+
+.collapse.navbar-collapse a:link {
+    background-color: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: blueviolet;
+}
+
+.collapse.navbar-collapse a:hover {
+    background-color: white;
+    color: blueviolet;
+}
+
+.collapse.navbar-collapse a:visited {
+    background-color: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: blueviolet;
+}
+.collapse.navbar-collapse a.contact:link {
+    border: 1px solid blueviolet;
+    background-color: white;
+    color: blueviolet;
+}
+
+.collapse.navbar-collapse a.contact:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+.collapse.navbar-collapse a.contact:visited {
+    background-color: white;
+    color: blueviolet
+}
+
+body {
+    padding-top: 0px;
+    font-family: sans-serif;
+    background-color: #3B2F63;
+    background-image: -webkit-radial-gradient(50% top, rgba(84, 90, 182, 0.6) 0%, rgba(84, 90, 182, 0) 75%), -webkit-radial-gradient(right top, #794aa2 0%, rgba(121, 74, 162, 0) 57%);
+    background-image: radial-gradient(0% bottom, ellipse, rgba(118, 72, 160, 0.7) 0%, rgba(118, 72, 160, 0) 60%), radial-gradient(90% bottom, ellipse, #523f8c 0%, rgba(82, 63, 140, 0) 40%);
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+    color: #c7c0de;
+}
+
+.container .jumbotron {
+    width: 100%;
+    text-align: center;
+    border-radius: 0px;
+    border-top: 1px solid gainsboro;
+    background: url("../img/optimized-hero.svg") center center;
+    background-size: cover;
+    height: 0;
+    padding: 30px;
+    padding-bottom: calc(100% * 3 / 4);
+}
+
+.container .jumbotron h1 {
+    color: deepskyblue;
+}
+
+.container .jumbotron p {
+    color: dimgray;
+    font-size: 2.vw;
+}
+
+p {
+    color: dimgray;
+}
+
+h1 {
+    font-size: 3.5vh;
+    font-weight: bolder;
+}
+
+.services {
+    margin-top: -90px;
+    margin-bottom: 60px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.services h2 {
+    color: blueviolet;
+    font-size: 3.5vmax;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.services h3 {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+    color: blueviolet;
+}
+
+.center-block {
+    text-align: center;
+    object-fit: contain;
+    height: 275px;
+    width: 205px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.about-our-services {
+    padding-bottom: 20px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.about-our-services h2 {
+    color: blueviolet;
+    font-size: 3.5vmax;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.more-services {
+    margin: 0px 20px;
+}
+
+.get-in-touch h1 {
+    color: deepskyblue;
+    font-size: 36px;
+}
+
+#final-cta {
+    margin: 20px 20px;
+    text-align: center;
+}
+
+.content {
+    z-index: 999;
+    background-color: #FFFFFF;
+    color: black;
+    border-radius: 1px;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+    border-bottom-left-radius: 1px;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container .jumbotron {
+        width: 100%;
+        text-align: center;
+        border-radius: 0px;
+        border-top: 1px solid gainsboro;
+        background: url("../img/optimized-hero.svg") center center;
+        background-size: cover;
+        height: 0;
+        padding: 5px;
+        padding-bottom: calc(100% * 3 / 4);
+    }
+    
+    .container .jumbotron h1 {
+        font-size: 48px;
+    }
+    
+    .container .jumbotron p {
+        color: dimgray;
+        font-size: 22px;
+    }
+    
+    .services {
+        margin-top: -80px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        border-bottom: 1px solid gainsboro;
+    }
+    
+    .services h2 {
+        font-size: 34px;
+        padding-bottom: 20px;
+    }
+    
+    .about-our-services h2 {
+        font-size: 34px;
+        padding-bottom: 15px;
+    }
+    
+    .center-block {
+        text-align: center;
+        object-fit: contain;
+        height: 250px;
+        width: 185px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .container .jumbotron {
+        width: 100%;
+        text-align: center;
+        border-radius: 0px;
+        border-top: 1px solid gainsboro;
+        background: url("../img/optimized-hero.svg") center center;
+        background-size: cover;
+        height: 0;
+        padding: 5px;
+        padding-bottom: calc(100% * 3 / 4);
+    }
+    
+    .container .jumbotron h1 {
+        font-size: 46px;
+    }
+    
+    .container .jumbotron p {
+        color: dimgray;
+        font-size: 22px;
+    }
+    
+    .services {
+        margin-top: -60px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        border-bottom: 1px solid gainsboro;
+    }
+    
+    .services h2 {
+        font-size: 34px;
+        padding-bottom: 30px;
+    }
+    
+    .about-our-services h2 {
+        font-size: 34px;
+        padding-bottom: 15px;
+    }
+    
+    .center-block {
+        text-align: center;
+        object-fit: contain;
+        height: 275px;
+        width: 205px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .container .jumbotron {
+        width: 100%;
+        text-align: center;
+        border-radius: 0px;
+        border-top: 1px solid gainsboro;
+        background: url("../img/optimized-hero.svg") center center;
+        background-size: cover;
+        height: 0;
+        padding: 5px;
+        padding-bottom: calc(100% * 3 / 4);
+    }
+    
+    .container .jumbotron h1 {
+        font-size: 28px;
+    }
+    
+    .container .jumbotron p {
+        color: dimgray;
+        font-size: 14px;
+    }
+    
+    .services {
+        margin-top: -50px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        border-bottom: 1px solid gainsboro;
+    }
+    
+    .services h2 {
+        font-size: 26px;
+        padding-bottom: 20px;
+    }
+    
+    .about-our-services h2 {
+        font-size: 24px;
+        padding-bottom: 15px;
+    }
+    
+    .center-block {
+        text-align: center;
+        object-fit: contain;
+        height: 250px;
+        width: 185px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container .jumbotron {
+        width: 100%;
+        text-align: center;
+        border-radius: 0px;
+        border-top: 1px solid gainsboro;
+        background: url("../img/optimized-hero.svg") center center;
+        background-size: cover;
+        height: 0;
+        padding: 5px;
+        padding-bottom: calc(100% * 3 / 4);
+    }
+    
+    .container .jumbotron h1 {
+        font-size: 22px;
+    }
+    
+    .container .jumbotron p {
+        color: dimgray;
+        font-size: 11px;
+    }
+    
+    .services {
+        margin-top: -50px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        border-bottom: 1px solid gainsboro;
+    }
+    
+    .services h2 {
+        font-size: 22px;
+        padding-bottom: 10px;
+    }
+    
+    .about-our-services h2 {
+        font-size: 22px;
+        padding-bottom: 15px;
+    }
+    
+    .center-block {
+        text-align: center;
+        object-fit: contain;
+        height: 225px;
+        width: 175px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+.get-in-touch {
+    padding-bottom: 40px
+}
