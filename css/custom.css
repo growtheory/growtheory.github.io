@@ -150,8 +150,20 @@ p {
         font-size: 11px
     }
     
+    .services h2 {
+        font-size: 22px;
+    }
+    
+    .center-block {
+        height: 175px;
+        width: 150px;
+    }
+    .about-our-services h2 {
+        font-size: 22px;
+    }
+    
     .get-in-touch h2 {
-        font-size: 22px
+        font-size: 24px
     }
     
     .get-in-touch h3 {
@@ -179,6 +191,7 @@ p {
 
 @media only screen and (min-width : 768px) {
     .navbar-header img {
+        padding-top: 0px;
         width: 250px;
     }
     
@@ -192,6 +205,18 @@ p {
     }
     .container .jumbotron p {
         font-size: 18px;
+    }
+
+    .services h2 {
+        font-size: 32px;
+    }
+    
+    .center-block {
+        height: 225px;
+        width: 175px;
+    }
+    .about-our-services h2 {
+        font-size: 32px;
     }
 }
 
