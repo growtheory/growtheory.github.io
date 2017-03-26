@@ -1,12 +1,6 @@
 body {
     padding-top: 0px;
     font-family: sans-serif;
-    background-color: #3B2F63;
-    background-image: -webkit-radial-gradient(50% top, rgba(84, 90, 182, 0.6) 0%, rgba(84, 90, 182, 0) 75%), -webkit-radial-gradient(right top, #794aa2 0%, rgba(121, 74, 162, 0) 57%);
-    background-image: radial-gradient(0% bottom, ellipse, rgba(118, 72, 160, 0.7) 0%, rgba(118, 72, 160, 0) 60%), radial-gradient(90% bottom, ellipse, #523f8c 0%, rgba(82, 63, 140, 0) 40%);
-    background-repeat: no-repeat;
-    background-size: 100% 1000px;
-    color: #c7c0de;
 }
 
 .content {
@@ -14,9 +8,16 @@ body {
     color: black;
 }
 
+h1 {
+    font-weight: bolder;
+}
+
 h2 {
     font-weight: bolder;
-    font-size: 38px;
+}
+
+h3 {
+    font-weight: bold;
 }
 
 p {
@@ -78,10 +79,14 @@ p {
 
 .container .jumbotron h1 {
     color: deepskyblue;
-    font-weight: bolder;
+}
+
+.hero-img {
+    margin-top: -38px;
 }
 
 .services {
+    padding-bottom: 20px;
     border-bottom: 1px solid gainsboro;
 }
 
@@ -128,4 +133,72 @@ p {
 
 .get-in-touch h2 {
     color: deepskyblue;
+}
+
+@media only screen and (min-width : 320px) {
+    .container .jumbotron h1 {
+        font-size: 22px;
+    }
+    
+    .container .jumbotron p {
+        font-size: 11px
+    }
+    
+    .get-in-touch h2 {
+        font-size: 22px
+    }
+    
+    .get-in-touch h3 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width : 480px) {
+    .container .jumbotron h1 {
+        font-size: 32px;
+    }
+    
+    .container .jumbotron p {
+        font-size: 14px;
+    }
+    
+    .get-in-touch h2 {
+        font-size: 32px;
+    }
+    
+    .get-in-touch h3 {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width : 768px) {
+    body {
+        background-color: #3B2F63;
+        background-image: -webkit-radial-gradient(50% top, rgba(84, 90, 182, 0.6) 0%, rgba(84, 90, 182, 0) 75%), -webkit-radial-gradient(right top, #794aa2 0%, rgba(121, 74, 162, 0) 57%);
+        background-image: radial-gradient(0% bottom, ellipse, rgba(118, 72, 160, 0.7) 0%, rgba(118, 72, 160, 0) 60%), radial-gradient(90% bottom, ellipse, #523f8c 0%, rgba(82, 63, 140, 0) 40%);
+        background-repeat: no-repeat;
+        background-size: 100% 1000px;
+        color: #c7c0de;
+    }
+    .container .jumbotron p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width : 992px) {
+    .container .jumbotron h1 {
+        font-size: 54px;
+    }
+    
+    .container .jumbotron p {
+        font-size: 22px;
+    }
+    
+}
+
+@media only screen and (min-width : 1200px) {
+    .container .jumbotron h1 {
+        font-size: 64px;
+    }
+    
 }
