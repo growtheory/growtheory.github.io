@@ -143,7 +143,7 @@ p {
         width: 175px;
     }
     .container .jumbotron h1 {
-        font-size: 22px;
+        font-size: 28px;
     }
     
     .container .jumbotron p {
@@ -178,6 +178,10 @@ p {
 }
 
 @media only screen and (min-width : 768px) {
+    .navbar-header img {
+        width: 250px;
+    }
+    
     body {
         background-color: #3B2F63;
         background-image: -webkit-radial-gradient(50% top, rgba(84, 90, 182, 0.6) 0%, rgba(84, 90, 182, 0) 75%), -webkit-radial-gradient(right top, #794aa2 0%, rgba(121, 74, 162, 0) 57%);
