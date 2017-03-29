@@ -63,7 +63,7 @@ body {
 }
 
 h1 {
-    font-size: 8vh;
+    font-size: 10vh;
 }
 
 h4 {
@@ -77,7 +77,7 @@ h4 {
 }
 
 .headliner h4 {
-    padding: 10px;
+    padding: 15px;
     color: #fff;
 }
 
