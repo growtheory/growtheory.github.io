@@ -1,231 +1,103 @@
-.container-fluid {
-    margin-left: -15px;
-    margin-right: -15px;
+body {
+    font-family:'Avenir LT W01_35 Light1475496';
 }
 
-body {
-    padding-top: 0px;
-    font-family: sans-serif;
+.navbar-static-top {
+    z-index: 1000;
+}
+
+.icon-bar {
+    background-color: #fff;
+}
+.navbar-dark {
+    height: 80px;
+    padding-top: 15px;
+}
+
+.navbar-dark .navbar-nav>li>a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.navbar-dark .navbar-brand {
+    background-image: url(../img/white_logo_transparent_background.png);
+}
+
+.navbar-brand {
+    float: left;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 50px;
+    padding: 15px 15px 15px 15px;
+    line-height: 20px;
+    background-size: auto 50px;
+    width: 260px;
+}
+
+.navbar {
+    position: relative;
+    background: transparent;
+    min-height: 50px;
+}
+
+.radial-header-gradient {
+    background-color: #3B2F63;
+    background-image: -webkit-radial-gradient(50% top, rgba(84, 90, 182, 0.6) 0%, rgba(84, 90, 182, 0) 75%), -webkit-radial-gradient(right top, #794aa2 0%, rgba(121, 74, 162, 0) 57%);
+    background-image: radial-gradient(0% bottom, ellipse, rgba(118, 72, 160, 0.7) 0%, rgba(118, 72, 160, 0) 60%), radial-gradient(90% bottom, ellipse,  #523f8c 0%, rgba(82, 63, 140, 0) 40%);
+    background-repeat: no-repeat;
+    color: #c7c0de;
+}
+
+.small-header {
+    min-height: 100vh;
+    margin-top: -80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.headliner {
+    position: absolute;
+    width: 100%;
+    bottom: 30%;
 }
 
 h1 {
-    font-weight: bolder;
+    font-size: 8vh;
 }
 
-h2 {
-    font-weight: bolder;
+h4 {
+    font-size: 3vh;
 }
 
-h3 {
-    font-weight: bold;
+.headliner h1 {
+    color: #ffffff;
 }
 
-p {
-    color: dimgray;
+.headliner h4 {
+    padding: 10px;
+    color: #fff;
 }
 
-.nav-header-div {
-    padding: 10px 20px;
-    border-bottom: 1px solid gainsboro;
+#learn-more {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
 }
 
-.navbar-toggle .icon-bar {
-    background-color: blueviolet;
+.separator {
+    width: 100px;
+    border-bottom: 2px solid #e8ebef;
 }
 
-.collapse.navbar-collapse a:link {
-    background-color: none;
-    font-weight: 800;
-    color: blueviolet;
+.section-gray {
+    background-color: #f7f8fa;
 }
 
-.collapse.navbar-collapse a:hover {
-    background-color: white;
-    color: blueviolet;
-}
-
-.collapse.navbar-collapse a:visited {
-    background-color: none;
-    text-transform: uppercase;
-    font-weight: 800;
-    color: blueviolet;
-}
-
-.collapse.navbar-collapse a.contact:link {
-    border: 1px solid blueviolet;
-    background-color: white;
-    color: blueviolet;
-}
-
-.collapse.navbar-collapse a.contact:hover {
-    background-color: blueviolet;
-    color: white;
-}
-
-.collapse.navbar-collapse a.contact:visited {
-    background-color: white;
-    color: blueviolet
-}
-
-.container-fluid .jumbotron {
-    background: none;
-    text-align: center;
-}
-
-.container-fluid .jumbotron h1 {
-    color: deepskyblue;
-}
-
-.hero-img {
-    margin-top: -38px;
-}
-
-.services {
-    padding-bottom: 20px;
-    border-bottom: 1px solid gainsboro;
-}
-
-.services h2 {
-    color: blueviolet;
-    text-align: center;
-    padding-bottom: 20px;
-    border-bottom: 1px solid gainsboro;
-}
-
-.center-block {
-    text-align: center;
-    object-fit: contain;
-    height: 275px;
-    width: 205px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.about-our-services {
-    padding-bottom: 20px;
-    border-bottom: 1px solid gainsboro;
-}
-
-.about-our-services h2 {
-    color: blueviolet;
-    text-align: center;
-    padding-bottom: 20px;
-    border-bottom: 1px solid gainsboro;
-}
-
-.more-services {
-    display: block;    
-    margin: auto;
-    width: 75%;
-}
-
-#final-cta {
-    margin: 20px 20px;
-    text-align: center;
-}
-
-.get-in-touch {
-    padding-bottom: 40px
-}
-
-.get-in-touch h2 {
-    color: deepskyblue;
-}
-
-@media only screen and (max-width: 768) {
-    .container {
-        width: 100vw;
-    }
-}
-
-@media only screen and (min-width : 320px) {
-    .navbar-header img {
-        padding-top: 10px;
-        width: 175px;
-    }
-    .container .jumbotron h1 {
-        font-size: 28px;
-    }
-    
-    .container .jumbotron p {
-        font-size: 11px
-    }
-    
-    .services h2 {
-        font-size: 22px;
-    }
-    
-    .center-block {
-        height: 175px;
-        width: 150px;
-    }
-    .about-our-services h2 {
-        font-size: 22px;
-    }
-    
-    .get-in-touch h2 {
-        font-size: 24px
-    }
-    
-    .get-in-touch h3 {
-        font-size: 18px;
-    }
-}
-
-@media only screen and (min-width : 480px) {
-    .container .jumbotron h1 {
-        font-size: 32px;
-    }
-    
-    .container .jumbotron p {
-        font-size: 14px;
-    }
-    
-    .get-in-touch h2 {
-        font-size: 32px;
-    }
-    
-    .get-in-touch h3 {
-        font-size: 24px;
-    }
-}
-
-@media only screen and (min-width : 768px) {
-    .navbar-header img {
-        padding-top: 0px;
-        width: 250px;
-    }
-    .container .jumbotron p {
-        font-size: 18px;
-    }
-
-    .services h2 {
-        font-size: 32px;
-    }
-    
-    .center-block {
-        height: 225px;
-        width: 175px;
-    }
-    .about-our-services h2 {
-        font-size: 32px;
-    }
-}
-
-@media only screen and (min-width : 992px) {
-    .container .jumbotron h1 {
-        font-size: 54px;
-    }
-    
-    .container .jumbotron p {
-        font-size: 22px;
-    }
-    
-}
-
-@media only screen and (min-width : 1200px) {
-    .container .jumbotron h1 {
-        font-size: 64px;
-    }
-    
+.section-gradient {
+    background-color: #3B2F63;
+    background-image: -webkit-radial-gradient(50% top, rgba(84, 90, 182, 0.6) 0%, rgba(84, 90, 182, 0) 75%), -webkit-radial-gradient(right top, #794aa2 0%, rgba(121, 74, 162, 0) 57%);
+    background-image: radial-gradient(0% bottom, ellipse, rgba(118, 72, 160, 0.7) 0%, rgba(118, 72, 160, 0) 60%), radial-gradient(90% bottom, ellipse,  #523f8c 0%, rgba(82, 63, 140, 0) 40%);
+    background-repeat: no-repeat;
+    color: #c7c0de;
 }
