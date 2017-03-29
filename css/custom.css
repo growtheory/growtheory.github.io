@@ -71,6 +71,7 @@ h4 {
 }
 
 .headliner h1 {
+    font-family: sans-serif;
     font-weight: 900;
     color: #ffffff;
 }
@@ -102,6 +103,7 @@ h4 {
 }
 
 .services-icon {
+    margin-top: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -127,7 +129,7 @@ h4 {
 }
 #our-process {
     margin-top: 10px;
-    padding-top: 15px;;
+    padding-top: 15px;
 }
 #our-process h4 {
     font-size: 4vh;
@@ -152,10 +154,30 @@ h4 {
     background-color: #f7f8fa;
 }
 
+.about-services h4 {
+    font-size: 4vh;
+    font-weight: 900;
+}
+
+.about-our-services {
+    margin-top: 10px;
+    padding-top: 15px;
+}
+
 .about-services i {
     font-size: 108px;
 }
 
 .large-icons {
     padding-top: 5%
+}
+
+.work-with-us h4 {
+    font-size: 4vh;
+    font-weight: 900;
+}
+
+.work-with-us {
+    margin-top: 10px;
+    padding-top: 15px;
 }
