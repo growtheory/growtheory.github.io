@@ -71,6 +71,7 @@ h4 {
 }
 
 .headliner h1 {
+    font-weight: 900;
     color: #ffffff;
 }
 
@@ -85,19 +86,72 @@ h4 {
     width: 100%;
 }
 
+#services {
+    margin-top: 10px;
+    padding-top: 15px; 
+}
+
+#services h4 {
+    font-size: 4vh;
+    font-weight: 900;
+}
+
+#services-container {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.services-icon {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.fa-thumbs-o-up {
+    color: #3b5998;
+}
+
+.fa-money {
+    color: #009d4f;
+}
+
+.fa-cogs {
+    color: #ea4335;
+}
+
+.fa-line-chart {
+    color: #8a2be2;
+}
+
+.fa-cubes {
+    color: #daa520;
+}
+#our-process {
+    margin-top: 10px;
+    padding-top: 15px;;
+}
+#our-process h4 {
+    font-size: 4vh;
+    font-weight: 900;
+}
+
+#our-process p {
+    margin-top: 15px;
+}
+
 .separator {
     width: 100px;
     border-bottom: 2px solid #e8ebef;
+}
+
+.process-img {
+    padding-top: 25px;
+    padding-bottom: 30px;
 }
 
 .section-gray {
     background-color: #f7f8fa;
 }
 
-.section-gradient {
-    background-color: #3B2F63;
-    background-image: -webkit-radial-gradient(50% top, rgba(84, 90, 182, 0.6) 0%, rgba(84, 90, 182, 0) 75%), -webkit-radial-gradient(right top, #794aa2 0%, rgba(121, 74, 162, 0) 57%);
-    background-image: radial-gradient(0% bottom, ellipse, rgba(118, 72, 160, 0.7) 0%, rgba(118, 72, 160, 0) 60%), radial-gradient(90% bottom, ellipse,  #523f8c 0%, rgba(82, 63, 140, 0) 40%);
-    background-repeat: no-repeat;
-    color: #c7c0de;
+.about-services i {
+    font-size: 108px;
 }
