@@ -59,7 +59,7 @@ body {
 .headliner {
     position: absolute;
     width: 100%;
-    bottom: 20%;
+    bottom: 30%;
 }
 
 h1 {
@@ -67,6 +67,7 @@ h1 {
 }
 
 h4 {
+    font-family: 'Avenir LT W01_65 Medium1475532';
     font-size: 3vh;
 }
 
@@ -180,6 +181,10 @@ h4 {
 
 .large-icons {
     padding-top: 5%
+}
+
+.more-services h4 {
+    text-align: center;
 }
 
 .work-with-us h4 {
