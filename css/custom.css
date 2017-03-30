@@ -59,11 +59,11 @@ body {
 .headliner {
     position: absolute;
     width: 100%;
-    padding-top: 40px;
+    padding-top: 9vh;
 }
 
 h1 {
-    font-size: 9vh;
+    font-size: 36px;
 }
 
 h4 {
