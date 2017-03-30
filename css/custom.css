@@ -59,7 +59,7 @@ body {
 .headliner {
     position: absolute;
     width: 100%;
-    bottom: 20%;
+    padding-top: 50px;
 }
 
 h1 {
