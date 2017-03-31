@@ -210,3 +210,18 @@ h4 {
     margin-top: 10px;
     padding-top: 15px;
 }
+
+.work-with-us p {
+    margin-top: 15px;
+}
+
+.cta-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.work-with-us a:link {
+    color: mediumpurple;
+    border: 1px solid mediumpurple;
+    border-radius: 0px;
+    width: 150px;
+}
