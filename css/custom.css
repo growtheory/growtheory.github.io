@@ -38,6 +38,7 @@ p {
 .navbar-collapse .navbar-nav>li>a:link {
     z-index: 1000;
     color: mediumpurple;
+    padding: 10px 10px 10px 10px;
     border: 2px solid white;
 }
 
