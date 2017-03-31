@@ -26,6 +26,21 @@ p {
     color: #fff;
 }
 
+.navbar-dark .navbar-nav>li>a:hover {
+    background: transparent;
+}
+
+.navbar-collapse a {
+    background-color: white;
+    opacity: .95;
+}
+
+.navbar-collapse .navbar-nav>li>a:link {
+    z-index: 1000;
+    color: mediumpurple;
+    border: 2px solid white;
+}
+
 .navbar-dark .navbar-brand {
     background-image: url(../img/white_logo_transparent_background.png);
 }
@@ -226,4 +241,18 @@ h4 {
     border: 1px solid mediumpurple;
     border-radius: 0px;
     width: 205px;
+}
+
+footer {
+    height: 50px;
+}
+
+.footer-links {
+    margin-top: 15px;
+}
+
+.footer-links a {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #5B666D;
 }
