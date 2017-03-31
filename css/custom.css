@@ -2,6 +2,11 @@ body {
     font-family:'Avenir LT W01_35 Light1475496';
 }
 
+p {
+    color: #5B666D;
+    font-size: 17px;
+}
+
 .navbar-static-top {
     z-index: 1000;
 }
@@ -179,12 +184,21 @@ h4 {
     font-size: 108px;
 }
 
+.more-services {
+    margin-top: 25px;
+}
+
 .large-icons {
-    padding-top: 5%
+    margin-top: 15%
 }
 
 .more-services h4 {
     text-align: center;
+}
+
+.more-services-wrapper {
+    overflow: auto;
+    margin-bottom: 30px;
 }
 
 .work-with-us h4 {
