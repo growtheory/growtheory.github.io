@@ -209,6 +209,7 @@ h4 {
 .work-with-us {
     margin-top: 10px;
     padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .work-with-us p {
@@ -223,5 +224,5 @@ h4 {
     color: mediumpurple;
     border: 1px solid mediumpurple;
     border-radius: 0px;
-    width: 150px;
+    width: 205px;
 }
