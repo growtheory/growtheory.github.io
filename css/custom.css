@@ -255,11 +255,16 @@ footer {
     color: #5B666D;
 }
 
-@media only screen and (max-width: 768) {
+@media only screen and (max-width: 768px) {
     .navbar-collapse a {
-        z-index: 1000;
         background-color: white;
-        color: mediumpurple;
         opacity: .95;
+    }
+    
+    .navbar-collapse .navbar-nav>li>a:link {
+        z-index: 1000;
+        color: mediumpurple;
+        font-weight: 900;
+        border: 2px solid white
     }
 }
