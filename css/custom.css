@@ -31,15 +31,12 @@ p {
 }
 
 .navbar-collapse a {
-    background-color: white;
     opacity: .95;
 }
 
 .navbar-collapse .navbar-nav>li>a:link {
     z-index: 1000;
-    color: mediumpurple;
     padding: 10px 10px 10px 10px;
-    border: 2px solid white;
 }
 
 .navbar-dark .navbar-brand {
