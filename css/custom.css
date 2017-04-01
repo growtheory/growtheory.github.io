@@ -87,7 +87,6 @@ h1 {
 
 h4 {
     font-family: 'Avenir LT W01_65 Medium1475532';
-    font-size: 3vh;
 }
 
 .headliner h1 {
@@ -157,6 +156,7 @@ h4 {
 .fa-cubes {
     color: #daa520;
 }
+
 #our-process {
     margin-top: 10px;
     padding-top: 15px;
