@@ -258,6 +258,7 @@ footer {
 @media only screen and (max-width: 768px) {
     .navbar-collapse a {
         background-color: white;
+        z-index: 999;
         opacity: .95;
     }
     
