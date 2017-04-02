@@ -186,7 +186,12 @@ h4 {
 }
 
 .more-services {
-    margin-top: 25px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    background-color: #f7f8fa;
+    -webkit-box-shadow: 0 0 5px 5px #dedee0;
+    -mox-box-shadow:0 0 5px 5px #dedee0;
+    box-shadow: 0 0 5px 5px #dedee0;
 }
 
 .large-icons {
@@ -195,12 +200,12 @@ h4 {
 
 .more-services h4 {
     font-size: 36px;
-    text-align: center;
 }
 
 .more-services-wrapper {
     overflow: auto;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .work-with-us h4 {
@@ -261,4 +266,17 @@ footer {
         opacity: .95;
         border: 2px solid white;
     }
+    
+    .more-services {
+        background-color: white;
+        -webkit-box-shadow: none;
+        -mox-box-shadow: none;
+        box-shadow: none;
+    }
+    
+    .more-services h4 {
+        font-size: 28px;
+        text-align: center;
+    }
+    
 }
