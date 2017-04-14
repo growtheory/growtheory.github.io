@@ -105,11 +105,6 @@ h4 {
     border-radius: 0px;
 }
 
-.headliner a:hover {
-    background-color: white;
-    color: mediumpurple;
-}
-
 #learn-more {
     position: absolute;
     bottom: 0%;
@@ -250,11 +245,6 @@ h4 {
     width: 275px;
 }
 
-.work-with-us a:hover, .work-with-us a:active {
-    background-color: mediumpurple;
-    color: white;
-}
-
 .cta-button-a {
     width: 100%;
 }
@@ -271,6 +261,18 @@ footer {
     padding-left: 10px;
     padding-right: 10px;
     color: #5B666D;
+}
+
+@media only screen and (min-width: 769px) {
+    .headliner a:hover {
+        background-color: white;
+        color: mediumpurple;
+    }
+    
+    .work-with-us a:hover {
+        background-color: mediumpurple;
+        color: white;
+    }
 }
 
 @media only screen and (max-width: 768px) {
