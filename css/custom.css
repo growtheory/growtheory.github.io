@@ -99,7 +99,7 @@ h4 {
     color: #fff;
 }
 
-.headliner a:link {
+.headliner a {
     color: white;
     border: 1px solid white;
     border-radius: 0px;
@@ -241,7 +241,7 @@ h4 {
     color: mediumpurple;
     border: 1px solid mediumpurple;
     border-radius: 0px;
-    width: 205px;
+    width: 275px;
 }
 
 footer {
