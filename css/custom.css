@@ -286,7 +286,7 @@ footer {
         flex-direction: column;
     }
     
-    .more-services h4 {
+    .more-services h3 {
         margin-top: 25px;
         margin-bottom: 15px;
         text-align: center;
@@ -296,11 +296,11 @@ footer {
         font-size: 95px;
     }
     
-    .copy-txt-r p, .copy-txt-r h4 {
+    .copy-txt-r p, .copy-txt-r h3 {
         margin-right: 0px;
     }
 
-    .copy-txt-l p, .copy-txt-l h4 {
+    .copy-txt-l p, .copy-txt-l h3 {
         margin-left: 0px;
     }
 
