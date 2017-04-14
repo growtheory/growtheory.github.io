@@ -7,6 +7,10 @@ p {
     font-size: 17px;
 }
 
+h4 { 
+    
+}
+
 .navbar-static-top {
     z-index: 1000;
 }
@@ -133,7 +137,7 @@ h4 {
 }
 
 .fa-cogs {
-    color: #ea4335;
+    color: indianred;
 }
 
 .fa-line-chart {
@@ -171,41 +175,50 @@ h4 {
     background-color: #f7f8fa;
 }
 
-.about-services h4 {
+.about-our-services h4 {
     font-size: 4vh;
     font-weight: 900;
-}
-
-.about-our-services {
-    margin-top: 10px;
-    padding-top: 15px;
+    margin-top: 25px;
 }
 
 .about-services i {
-    font-size: 108px;
+    font-size: 175px;
 }
 
 .more-services {
-    margin-top: 35px;
-    margin-bottom: 50px;
-    background-color: #f7f8fa;
-    -webkit-box-shadow: 0 0 5px 5px #dedee0;
-    -mox-box-shadow:0 0 5px 5px #dedee0;
-    box-shadow: 0 0 5px 5px #dedee0;
-}
-
-.large-icons {
-    margin-top: 15%
-}
-
-.more-services h4 {
-    font-size: 36px;
+   margin-top: 40px;
 }
 
 .more-services-wrapper {
-    overflow: auto;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 0px 40px 0px;
+    padding: 25px 0 25px 0px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 1px 1px #dedee0;
+    -mox-box-shadow: 0px 0px 1px 1px #dedee0;
+    box-shadow: 0px 0px 1px 1px #dedee0;
+}
+
+.more-services h4 {
+    font-size: 2.25em;
+}
+
+.copy-txt-r p {
+    text-align: justify;
+}
+
+.copy-txt-r p, .copy-txt-r h4 {
+    margin-right: 25px;
+}
+
+.copy-txt-l p {
+    text-align: justify;
+}
+
+.copy-txt-l p, .copy-txt-l h4 {
+    margin-left: 25px;
 }
 
 .work-with-us h4 {
@@ -267,16 +280,27 @@ footer {
         border: 2px solid white;
     }
     
-    .more-services {
-        background-color: white;
-        -webkit-box-shadow: none;
-        -mox-box-shadow: none;
-        box-shadow: none;
+    .more-services-wrapper {
+        flex-direction: column;
     }
     
     .more-services h4 {
         font-size: 28px;
+        margin-top: 25px;
+        margin-bottom: 15px;
         text-align: center;
     }
     
+    .about-services i {
+        font-size: 95px;
+    }
+    
+    .copy-txt-r p, .copy-txt-r h4 {
+        margin-right: 0px;
+    }
+
+    .copy-txt-l p, .copy-txt-l h4 {
+        margin-left: 0px;
+    }
+
 }
