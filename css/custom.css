@@ -99,10 +99,15 @@ h4 {
     color: #fff;
 }
 
-.headliner a {
+.headliner a:link, .headliner a:visited {
     color: white;
     border: 1px solid white;
     border-radius: 0px;
+}
+
+.headliner a:hover {
+    background-color: white;
+    color: mediumpurple;
 }
 
 #learn-more {
@@ -237,11 +242,21 @@ h4 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.work-with-us a:link {
+
+.work-with-us a:link, .work-with-us a:visited {
     color: mediumpurple;
     border: 1px solid mediumpurple;
     border-radius: 0px;
     width: 275px;
+}
+
+.work-with-us a:hover, .work-with-us a:active {
+    background-color: mediumpurple;
+    color: white;
+}
+
+.cta-button-a {
+    width: 100%;
 }
 
 footer {
