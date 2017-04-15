@@ -112,7 +112,6 @@ h4 {
 }
 
 #services {
-    margin-top: 10px;
     padding-top: 15px; 
 }
 
@@ -161,7 +160,6 @@ h4 {
 }
 
 #our-process {
-    margin-top: 10px;
     padding-top: 15px;
 }
 
@@ -183,8 +181,8 @@ h4 {
     background-color: #f7f8fa;
 }
 
-.about-our-services h4 {
-    margin-top: 25px;
+.about-our-services {
+    padding-top: 15px;
 }
 
 .about-services i {
