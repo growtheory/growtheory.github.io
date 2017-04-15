@@ -84,10 +84,17 @@ h4 {
     min-height: 100vh;
 }
 
+.headliner-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 90vh;
+}
+
 .headliner {
-    position: absolute;
+    margin-top: auto;
+    margin-bottom: auto;
     width: 100%;
-    padding-top: 9vh;
 }
 
 .headliner h1 {
