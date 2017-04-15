@@ -85,9 +85,7 @@ h4 {
 }
 
 .headliner {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    margin-top: 20vh;
     width: 100%;
 }
 
